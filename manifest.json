@@ -1,0 +1,14 @@
+{
+  "name": "Twitter Emoji Extension for Twitter",
+  "version": "0.1",
+  "manifest_version": 2,
+
+  "description": "Twitter Emoji Extension like Slack.",
+
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*"],
+      "js": ["myscript.js"]
+    }
+  ]
+}
