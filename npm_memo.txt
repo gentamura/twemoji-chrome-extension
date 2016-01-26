@@ -1,0 +1,23 @@
+# http://qiita.com/nownabe/items/2d8b92d95186c3941de0
+
+npm install --save-dev react
+npm install --save-dev vinyl-buffer
+npm install --save-dev vinyl-source-stream
+
+# express
+npm install --save-dev express
+npm install --save-dev body-parser
+
+# browserify
+npm install --save-dev browserify
+npm install --save-dev babelify@6.4.0
+
+# gulp
+npm install --save-dev browser-sync
+
+# 起動サーバのファイル更新で再起動
+npm install --save-dev node-dev@2.6.2
+
+# utils
+npm install --save-dev jquery
+npm install --save-dev marked
