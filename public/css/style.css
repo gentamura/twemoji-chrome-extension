@@ -1,0 +1,42 @@
+.TwemojiCreater {
+  position: relative;
+  float: left;
+  margin-right: 5px; }
+  .TwemojiCreater img.emoji {
+    width: 20px; }
+  .TwemojiCreater .Icon:before, .TwemojiCreater .Icon:after {
+    display: none; }
+  .TwemojiCreater .icon-btn .text {
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 3px;
+    position: relative;
+    top: -6px; }
+
+ul.emoji-list {
+  padding: 0;
+  width: 500px;
+  height: 500px;
+  overflow-y: scroll;
+  border: 1px solid #ccc; }
+
+ul.emoji-list * {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none; }
+
+ul.emoji-list li {
+  font-size: 36px;
+  float: left;
+  display: inline-block;
+  padding: 2px;
+  margin: 4px; }
+
+img.emoji {
+  cursor: pointer;
+  height: 1em;
+  width: 1em;
+  margin: 0 .05em 0 .1em;
+  vertical-align: -0.1em; }

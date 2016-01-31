@@ -8,8 +8,8 @@
   "content_scripts": [
     {
       "matches": ["https://twitter.com/*"],
-      "css": ["mystyles.css"],
-      "js": ["jquery.min.js", "twemoji.js", "myscript.js"]
+      "css": ["public/css/style.css"],
+      "js": ["lib/jquery.min.js", "lib/twemoji.js", "build/build.js"]
     }
   ]
 }

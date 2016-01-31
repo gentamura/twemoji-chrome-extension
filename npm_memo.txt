@@ -16,7 +16,7 @@ npm install --save-dev babelify@6.4.0
 npm install --save-dev browser-sync
 
 # 起動サーバのファイル更新で再起動
-npm install --save-dev node-dev@2.6.2
+npm install --save-dev node-dev
 
 # utils
 npm install --save-dev jquery
